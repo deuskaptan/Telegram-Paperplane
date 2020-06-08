@@ -39,7 +39,7 @@ async def sysdetails(sysd):
 
             await sysd.edit("`" + result + "`")
         except FileNotFoundError:
-            await sysd.edit("`Hella install neofetch first kthx`")
+            await sysd.edit("`Merhaba BeyazÇETE UserBot çalışıyor...`")
 
 
 @register(outgoing=True, pattern="^.botver$")
